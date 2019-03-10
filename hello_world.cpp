@@ -1,8 +1,12 @@
 include <iostream>
 include <string>
 using namespace std;
-string name;
+int main()
+{
+string name; //объявление переменной имени пользователя
 cout<<"What is your name?";
-cin>>name;
-cout<<"Hello World from "<<name;
+cin>>name; //ввод имени пользователя
+cout<<"Hello World from "<<name; //вывод приветствия с именем пользователя
+return 0;
+}
 # homework2
