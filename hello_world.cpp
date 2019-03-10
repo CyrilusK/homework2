@@ -1,4 +1,8 @@
 include <iostream>
+include <string>
 using namespace std;
-cout<<"Hello World";
+string name;
+cout<<"What is your name?";
+cin>>name;
+cout<<"Hello World from "<<name;
 # homework2
